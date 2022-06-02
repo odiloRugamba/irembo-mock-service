@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/v1/clientservices/claimtoken",
+    "bodyPatterns":[{
+      "equalToJson" :{
+        "username":"IREMBO",
+        "password":"kTWteU6esrk!ED@VH26MVQym2jD5GanmI6mt0PNflN1Lsh_y2m3U$4Biy5rsZqCv5SL0JeksOyipfTKpaO64EWDFrr@Bqvhi9lXb9bWi4-gK2kmZM2?@9jHh7JjCOf"
+      }
+    }]
+    },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": "no-cache"
+    },
+    "body": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMDkxNTc1ODNiMGYzNDhjYWQ0MGU1ZiIsInVzZXJuYW1lIjoiSVJFTUJPIiwic2VydmljZSI6IklSRU1CTyIsInJvbGUiOiJTVVBFUl9BRE1JTiIsImlhdCI6MTY0ODU3MTkyMiwiZXhwIjoxNjQ4NjU4MzIyLCJqdGkiOiJ2cmh5Vy1tV0t5QUYxOFU3eGlhWkRDZ0VwaXlOSHpQbHliY0ZzdGF6c1AwYSJ9.CLlez-RscBAYj7VvScHZRe5lj-d0GgYZNuQDEZkLo5o"
+  }
+}

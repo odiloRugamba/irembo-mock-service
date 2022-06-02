@@ -1,0 +1,70 @@
+
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/v1/crvsservices/getDivorceRecord",
+    "bodyPatterns":[{
+      "equalToJson" :{
+      "husbandDocumentNumber":"1193380008257048",
+      "husbandDocumentType":"NID",
+      "wifeDocumentNumber": "2193970011551024",
+      "wifeDocumentType":"NID",
+      "keyPhrase":"YuKHFz_f0eeR0CVoLt0oRPvWCF8vfNNRiWGqpd!pYvQMbQ5U2-PFsO4mygUUOLbWHoMhRDG6Xwzk659cG5M6MI!UG?ujhL6MYBDz4h$65X3r-SSYGf-qIVS51@4E2Y"
+    }
+      }]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Cache-Control": "no-cache"
+    },
+    "jsonBody": {
+      "status": "string",
+    "responseCode": "string",
+    "message": "string",
+    "data":
+{
+  "registered": "1",
+  "husbandDocument Type": "string",
+"husbandDocumentNumber": "string",
+"husbandName": "string",
+"husbandSex": "string",
+"husbandDateOfBirth": "string",
+"husbandNationality": "string",
+"husbandMaritalStatus": "string",
+"husbandDomicile": "string",
+"husbandResidence": "string",
+"wifeDocumentType": "string",
+"wifeDocumentNumber": "string",
+"wifeName": "string",
+"wifeSex": "string",
+"wifeDateOfBirth": "string",
+"wifeNationality": "string",
+"wifeDomicile": "string",
+"wifeResidence": "string",
+"wifeMotherName": "string",
+"wifeFatherName": "string",
+"dateOfMarriage": "string",
+"placeOfMarriage": "string",
+"matrimonialRegime": "string",
+"judgementNumber": "string",
+"dateOfDivorce": "string",
+"courtName": "string",
+"civilStatusOfficeName": "string",
+"civilStatusOfficeLocation": "string",
+"civilRegistrarName": "string",
+"civilRegistrarConsent": "string",
+"dateOf issuanceOfTheRecord": "string",
+"dateOf issuanceOfTheExtract": "string",
+"recordSerialNumber": "string",
+"extractSerialNumber": "string"
+}
+}
+
+}
+}
+
+
+
+
