@@ -42,9 +42,10 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+
       - name: Set released tag in env vars
         run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
-      
+        
       - name: build and push docker image
         run: |
           docker build -t ghcr.io/${{ env.REPO_OWNER }}/${{ env.REPO_NAME }}/${{ env.REPO_NAME }}:${{ env.RELEASE_VERSION }} .
